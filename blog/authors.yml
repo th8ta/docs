@@ -1,17 +1,23 @@
-endi:
-  name: Endilie Yacop Sucipto
-  title: Maintainer of Docusaurus
-  url: https://github.com/endiliey
-  image_url: https://github.com/endiliey.png
+t8:
+  name: Tate Berenbaum
+  title: Chief Executive Officer
+  url: https://twitter.com/TateBerenbaum
+  image_url: https://th8ta.org/tate.jpeg
 
-yangshun:
-  name: Yangshun Tay
-  title: Front End Engineer @ Facebook
-  url: https://github.com/yangshun
-  image_url: https://github.com/yangshun.png
+marton:
+  name: Marton Lederer
+  title: Frontend Developer
+  image_url: https://th8ta.org/marton.jpeg
+  url: https://twitter.com/martonlederer
 
-slorber:
-  name: Sébastien Lorber
-  title: Docusaurus maintainer
-  url: https://sebastienlorber.com
-  image_url: https://github.com/slorber.png
+maximousblk:
+  name: Maximous Black
+  title: User Experience Designer
+  image_url: https://th8ta.org/max.jpeg
+  url: https://twitter.com/maximousblk
+
+divy:
+  name: Divy Srivastava
+  title: Backend Developer
+  image_url: https://th8ta.org/divy.jpeg
+  url: https://twitter.com/undefined_void
