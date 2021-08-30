@@ -1,74 +1,79 @@
-const lightCodeTheme = require('prism-react-renderer/themes/github');
-const darkCodeTheme = require('prism-react-renderer/themes/dracula');
+const lightCodeTheme = require("prism-react-renderer/themes/github");
+const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 module.exports = {
-  title: 'Th8ta',
-  tagline: 'Building from all angles',
-  url: 'https://docs.th8ta.org',
-  baseUrl: '/',
-  onBrokenLinks: 'throw',
-  onBrokenMarkdownLinks: 'warn',
-  favicon: 'img/logo.svg',
-  organizationName: 'th8ta', // Usually your GitHub org/user name.
-  projectName: 'docs', // Usually your repo name.
+  title: "Th8ta",
+  tagline: "Building from all angles",
+  url: "https://docs.th8ta.org",
+  baseUrl: "/",
+  onBrokenLinks: "throw",
+  onBrokenMarkdownLinks: "warn",
+  favicon: "img/logo.svg",
+  organizationName: "th8ta", // Usually your GitHub org/user name.
+  projectName: "docs", // Usually your repo name.
   themeConfig: {
     navbar: {
-      title: 'Documentation',
+      title: "Documentation",
       logo: {
-        alt: 'Th8ta Logo',
-        src: 'img/logo.svg',
+        alt: "Th8ta Logo",
+        src: "img/logo.svg",
       },
       items: [
         {
-          type: 'doc',
-          docId: 'home',
-          position: 'left',
-          label: 'Tutorial',
+          type: "doc",
+          position: "left",
+          label: "Verto",
+          docId: "verto/home",
         },
-        {to: '/blog', label: 'Blog', position: 'left'},
         {
-          href: 'https://github.com/th8ta/docs',
-          label: 'GitHub',
-          position: 'right',
+          type: "doc",
+          position: "left",
+          label: "ArConnect",
+          docId: "arconnect/home",
+        },
+        {
+          href: "https://github.com/th8ta/docs",
+          label: "GitHub",
+          position: "right",
         },
       ],
     },
     footer: {
-      style: 'dark',
+      style: "dark",
       links: [
         {
-          title: 'Docs',
+          title: "Docs",
           items: [
             {
-              label: 'ArConnect',
-              to: '/',
+              label: "ArConnect",
+              to: "/",
             },
           ],
         },
         {
-          title: 'Community',
+          title: "Community",
           items: [
             {
-              label: 'Discord',
-              href: 'https://verto.exchange/chat',
+              label: "Discord",
+              href: "https://verto.exchange/chat",
             },
             {
-              label: 'Twitter',
-              href: 'https://twitter.com/vertoexchange',
+              label: "Twitter",
+              href: "https://twitter.com/vertoexchange",
             },
           ],
         },
         {
-          title: 'More',
+          title: "More",
           items: [
             {
-              label: 'Blog',
-              to: '/blog',
+              label: "Blog",
+              to: "https://blog.th8ta.org",
             },
             {
-              label: 'GitHub',
-              href: 'https://github.com/th8ta/docs',
+              label: "GitHub",
+              href: "https://github.com/th8ta/docs",
             },
           ],
         },
@@ -82,16 +87,16 @@ module.exports = {
   },
   presets: [
     [
-      '@docusaurus/preset-classic',
+      "@docusaurus/preset-classic",
       {
         docs: {
-          routeBasePath: '/',
-          sidebarPath: require.resolve('./sidebars.js'),
+          routeBasePath: "/",
+          sidebarPath: require.resolve("./sidebars.js"),
           // Please change this to your repo.
-          editUrl: 'https://github.com/th8ta/docs/edit/main/website/',
+          editUrl: "https://github.com/th8ta/docs/edit/main/website/",
         },
         theme: {
-          customCss: require.resolve('./src/css/custom.css'),
+          customCss: require.resolve("./src/css/custom.css"),
         },
       },
     ],
