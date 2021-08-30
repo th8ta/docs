@@ -22,7 +22,7 @@ module.exports = {
       items: [
         {
           type: 'doc',
-          docId: 'intro',
+          docId: 'home',
           position: 'left',
           label: 'Tutorial',
         },
@@ -41,8 +41,8 @@ module.exports = {
           title: 'Docs',
           items: [
             {
-              label: 'Tutorial',
-              to: '/docs/intro',
+              label: 'ArConnect',
+              to: '/',
             },
           ],
         },
@@ -85,15 +85,10 @@ module.exports = {
       '@docusaurus/preset-classic',
       {
         docs: {
+          routeBasePath: '/',
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
           editUrl: 'https://github.com/th8ta/docs/edit/main/website/',
-        },
-        blog: {
-          showReadingTime: true,
-          // Please change this to your repo.
-          editUrl:
-            'https://github.com/th8ta/docs/edit/main/website/blog/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),

@@ -6,5 +6,5 @@
       "@site/*": ["./*"]
     }
   },
-  "include": ["src/"]
+  "include": []
 }
