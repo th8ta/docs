@@ -1,4 +1,4 @@
-t8:
+tate:
   name: Tate Berenbaum
   title: Chief Executive Officer
   url: https://twitter.com/TateBerenbaum
@@ -21,3 +21,9 @@ divy:
   title: Backend Developer
   image_url: https://th8ta.org/divy.jpeg
   url: https://twitter.com/undefined_void
+
+ghost:
+  name: Ghost
+  title: Ghost
+  image_url: https://github.com/ghost.png
+  url: https://github.com/ghost
